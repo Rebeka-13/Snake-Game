@@ -15,6 +15,7 @@ public class CardLayoutJFrame extends JFrame {
         JPanel cardPanel = new JPanel();
         cardPanel.setLayout(layout);
         add(cardPanel);
+        setResizable(false);
 
 
         // menu view
